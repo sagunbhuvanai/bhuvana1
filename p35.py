@@ -1,7 +1,7 @@
 class A:
     a=10
     b=20
-    def __init__(self,name,age,address=None):
+    def __init__(self,name,age,address):
         self.name=name
         self.age=age
         self.address=address
@@ -9,6 +9,7 @@ class A:
     def display(self):
         print('name ->',self.name)
         print('age ->',self.age)
-obj=A('bhuvi',22)
+        print('address ->',self.address)
+obj=A('bhuvi',22,'hubli-dharwad')
 obj.display()
 
