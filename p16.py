@@ -7,5 +7,5 @@ for i in range(1,100):
     elif(i%5==0):
         print('Buzzzz')
     else:
-        print(i)
+        print(j)
         
