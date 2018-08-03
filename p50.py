@@ -1,1 +1,1 @@
-print('good after noon')
+print('good after')
