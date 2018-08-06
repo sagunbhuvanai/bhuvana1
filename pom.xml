@@ -4,7 +4,7 @@
 
   <groupId>com.Jobvite</groupId>
   <artifactId>JobviteApplication</artifactId>
-  <version>0.0.4-SNAPSHOT</version>
+  <version>0.0.8-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>JobviteApplication</name>
