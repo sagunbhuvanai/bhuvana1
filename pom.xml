@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.Jobvite</groupId>
-  <artifactId>JobviteApplication</artifactId>
-  <version>0.0.8-SNAPSHOT</version>
+  <groupId>com.Combo</groupId>
+  <artifactId>CombOffer</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>JobviteApplication</name>
+  <name>CombOffer</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -23,7 +23,7 @@
     </dependency>
   </dependencies>
   
- <build>
+  <build>
     <pluginManagement>
       <plugins>
         <plugin>
@@ -34,28 +34,13 @@
            
           </configuration>
         </plugin>
-<plugin>
-   <artifactId>maven-deploy-plugin</artifactId>
-   <version>2.7</version>
-   <executions>
-      <execution>
-         <id>default-deploy</id>
-         <phase>deploy</phase>
-         <goals>
-            <goal>deploy</goal>
-         </goals>
-      </execution>
-   </executions>
-</plugin>
-
-
       </plugins>
     </pluginManagement>
   </build>
   
   <distributionManagement>
   <repository>
-      <id>Jobvite</id>
+      <id>nexus-Jobvite</id>
       <url>http://localhost:8081/repository/Jobvite/</url>
    </repository>
 </distributionManagement>
