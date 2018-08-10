@@ -4,7 +4,7 @@
 
   <groupId>com.Combo</groupId>
   <artifactId>CombOffer</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.3-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>CombOffer</name>
@@ -35,26 +35,14 @@
           </configuration>
         </plugin>
         
-        <plugin>
-   <artifactId>maven-deploy-plugin</artifactId>
-   <version>2.7</version>
-   <executions>
-      <execution>
-         <id>default-deploy</id>
-         <phase>deploy</phase>
-         <goals>
-            <goal>deploy</goal>
-         </goals>
-      </execution>
-   </executions>
-</plugin>
+       
       </plugins>
     </pluginManagement>
   </build>
   
   <distributionManagement>
   <repository>
-      <id>nexus-Jobvite</id>
+      <id>localnexus</id>
       <url>http://localhost:8081/repository/Jobvite/</url>
    </repository>
 </distributionManagement>
