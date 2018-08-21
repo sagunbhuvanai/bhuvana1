@@ -2,12 +2,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.Jobvite</groupId>
-  <artifactId>JobviteApplication</artifactId>
-  <version>0.0.8-SNAPSHOT</version>
-  <packaging>jar</packaging>
+  <groupId>com.ComboApp</groupId>
+  <artifactId>ComboApplication</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
 
-  <name>JobviteApplication</name>
+  <name>ComboApplication</name>
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -22,27 +22,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
- <build>
-    <pluginManagement>
-      <plugins>
-        <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.8.0</version>
-          <configuration>
-           
-          </configuration>
-        </plugin>
-      </plugins>
-    </pluginManagement>
-  </build>
-  
-  <distributionManagement>
-  <repository>
-      <id>nexus-Jobvite</id>
-      <url>http://localhost:8081/repository/Jobvite/</url>
-   </repository>
-</distributionManagement>
-  
+  <modules>
+  	<module>Gmail</module>
+  </modules>
 </project>
