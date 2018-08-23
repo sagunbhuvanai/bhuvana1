@@ -63,7 +63,7 @@
     
      <distributionManagement>
   <repository>
-      <id>nexus-Jobvite</id>
+      <id>localnexus</id>
       <url>http://localhost:8081/repository/Jobvite/</url>
    </repository>
 </distributionManagement>
