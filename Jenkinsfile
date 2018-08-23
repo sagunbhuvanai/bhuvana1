@@ -1,10 +1,11 @@
 pipeline {
     agent any
     stages{
-        stage('Build'){
+        stage('Compile Stage'){
             steps {
-                sh 'mvn clean package'
-            }
+                withMaven(maven : 'maven1'){
+                    sh 'mvn clean compile'  
+                }
             post {
                 success {
                     echo 'Now Archiving...'
@@ -13,4 +14,5 @@ pipeline {
             }
         }
     }
+}
 }
