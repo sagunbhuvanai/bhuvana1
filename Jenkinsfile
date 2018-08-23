@@ -8,5 +8,12 @@ pipeline {
                 bat 'mvn clean package'
             }
         }
+        stage('Deploy') {
+            steps {
+                echo 'deploying..'
+                bat 'mvn deploy'
+            }
+        }
     }
+    
 }
