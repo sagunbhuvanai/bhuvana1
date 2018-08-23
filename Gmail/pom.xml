@@ -39,6 +39,13 @@
       </plugins>
     </pluginManagement>
   </build>
+    
+     <distributionManagement>
+  <repository>
+      <id>nexus-Jobvite</id>
+      <url>http://localhost:8081/repository/Jobvite/</url>
+   </repository>
+</distributionManagement>
   
   
 </project>
