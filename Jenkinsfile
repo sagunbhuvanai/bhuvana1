@@ -11,7 +11,7 @@ pipeline {
     stages {
         stage('Example') {
             steps {
-                checkout([$class: 'GitSCM', branches: [[name: "*/${select_branch}"]], gitTool: 'jgit', userRemoteConfigs: [[url: "https://github.com/sagunbhuvanai/bhuvana1.git"]]])
+                checkout([$class: 'GitSCM', branches: [[name: "*/${select_branch}"]],  userRemoteConfigs: [[url: "https://github.com/sagunbhuvanai/bhuvana1.git"]]])
                
             }
         }
