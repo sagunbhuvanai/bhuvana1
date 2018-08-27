@@ -2,7 +2,7 @@ pipeline {
     agent any
     parameters {
         string(name : 'select_branch',
-               defaultValue : 'sub-branch'
+               defaultValue : 'sub-branch',
                description : 'This brnach has pom file')
     }
     triggers {
