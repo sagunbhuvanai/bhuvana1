@@ -6,7 +6,7 @@ pipeline {
                description : 'This brnach has pom file')
     }
     triggers {
-        pollSCM('* * * * *')
+        pollSCM('5 * * * *')
     }
     stages {
         stage('Example') {
